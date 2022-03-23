@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div button#start-button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;    
+}
+
+div button#start-button:hover {
+    background-color: lightcyan;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding-bottom: 4px;    
+    cursor: pointer;
+}
+
+div button#start-button a {
+    color: black;
+    text-decoration: none;
+}
+
+div a:hover button#start-button  {
+    color: black;
+    text-decoration: none;
+    font-size: 11pt;
+    font-weight: bold;
+}
