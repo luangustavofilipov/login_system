@@ -6,6 +6,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
 
@@ -15,26 +17,34 @@
 </head>
 
 <body>
-
-    <div align="center">
-
-        <h3 id="initial-message">
-            Welcome! Press "START" to enter in the system. 
-            <br><br><br>
-        </h3>
-
-        <div align="center">
-
-            
-                <a href="http://xbitziefilipov.epizy.com" target="_blank" >
-                    <button type="submit" id="start-button">✨START✨</button>
-                </a>
-            
+    
+    
+    <body class="text-center">
+        <div class="form-signin bg-light">
+            <form>
+                <h1 class="h3 mb-3 fw-normal">Login</h1>
+    
+                <div class="form-floating">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                </div>
+    
+                <div class="checkbox mb-3">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                </div>
+                <button class="w-100 btn btn-lg btn-dark" type="submit">Sign in</button>
+                <p class="mt-5 mb-3 text-muted">&copy; By Luan G A Filipov</p>
+            </form>
         </div>
-
-
-    </div>
+        
     
 </body>
+<script src="js/bootstrap.bundle.min.js"></script>
 
 </html>

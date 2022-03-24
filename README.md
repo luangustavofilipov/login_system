@@ -13,7 +13,7 @@
 <h4>
 
 - Login com Google API
-- Responsividade
+- Responsividade com Bootstrap 4
 - Possibilidade de crescimento
 
 ---
